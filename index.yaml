@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  mycustomchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-11T07:16:40.969201318Z"
+    dependencies:
+    - name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      version: ^ 10.0.0
+    description: A Helm chart for Kubernetes
+    digest: fe502b9fc8402c82b00eb5423a65097eac06b77592d9c9a354a1d6578526a35c
+    name: mycustomchart
+    type: application
+    urls:
+    - mycustomchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-11T07:16:40.958657754Z"
